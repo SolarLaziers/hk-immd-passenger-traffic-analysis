@@ -1,0 +1,61 @@
+# Project Configuration
+project:
+  name: "HK Immigration Passenger Traffic Analysis"
+  author: "Your Name"
+  student_id: "Your Student ID"
+  course: "Data Science"
+  institution: "THEi FDE"
+  semester: "1 AY2025/26"
+
+# Data Configuration
+data:
+  source_url: "https://data.gov.hk/en-data/dataset/hk-immd-set5-statistics-daily-passenger-traffic/resource/e06a2a45-fe05-4eb4-9302-237d74343d52"
+  raw_path: "data/raw/passenger_traffic.csv"
+  processed_path: "data/processed/cleaned_traffic_data.csv"
+  
+  features:
+    numeric: ['month', 'day', 'day_of_week', 'is_weekend', 'is_holiday', 'quarter', 'day_of_year']
+    categorical: []  # Add if available
+    
+  target: "passenger_count"
+
+# Model Configuration
+models:
+  linear_regression:
+    test_size: 0.2
+    random_state: 42
+    
+  logistic_regression:
+    test_size: 0.2
+    random_state: 42
+    max_iter: 1000
+    
+  svm:
+    kernel: "rbf"
+    C: 1.0
+    random_state: 42
+    
+  kmeans:
+    n_clusters: 3
+    random_state: 42
+    n_init: 10
+
+# Visualization Configuration
+visualization:
+  style: "seaborn-v0_8-darkgrid"
+  palette: "husl"
+  figsize:
+    default: [10, 6]
+    large: [15, 8]
+  
+  colors:
+    primary: "#1f77b4"
+    secondary: "#ff7f0e"
+    success: "#2ca02c"
+    warning: "#d62728"
+    
+# Paths
+paths:
+  figures: "reports/figures"
+  models: "models"
+  logs: "logs"
