@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/solarlaziers/hk-immd-passenger-traffic-analysis)](https://github.com/YOUR-USERNAME/hk-immd-passenger-traffic-analysis/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/solarlaziers/hk-immd-passenger-traffic-analysis)](https://github.com/solarlaziers/hk-immd-passenger-traffic-analysis/issues)
 
 A comprehensive data science project analyzing daily passenger traffic at Hong Kong immigration checkpoints using machine learning algorithms. This project was developed for the Data Science course at THEi FDE (Semester 1 AY2025/26).
 
@@ -104,3 +104,4 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
