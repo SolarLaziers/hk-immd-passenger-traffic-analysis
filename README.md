@@ -85,8 +85,8 @@ hk-immd-passenger-traffic-analysis/
 1. **Clone the repository:**
 
 ```bash
-   git clone https://github.com/YOUR-USERNAME/hk-immd-passenger-traffic-analysis.git
-   cd hk-immd-passenger-traffic-analysis
+git clone https://github.com/YOUR-USERNAME/hk-immd-passenger-traffic-analysis.git
+cd hk-immd-passenger-traffic-analysis
 ```
 2. **Create a virtual environment (recommended):**
 
@@ -98,4 +98,9 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
+
 3. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
